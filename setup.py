@@ -12,11 +12,11 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = "mypackage"
+NAME = "expand"
 DESCRIPTION = "Utility to expand nox functionality."
-URL = "https://github.com/AComfyGeek/dusk"
-EMAIL = "me@example.com"
-AUTHOR = "Awesome Soul"
+URL = "https://github.com/AComfyGeek/helios"
+EMAIL = "marcwbrooks@gmail.com"
+AUTHOR = "Marc Brooks"
 REQUIRES_PYTHON = ">=3.6.0"
 VERSION = "0.1.0"
 
