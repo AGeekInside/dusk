@@ -1,2 +1,2 @@
-# dusk
-A project to expand nox testing.
+# Expand
+A project to expand out potential versions of package dependencies in a requirements.txt file.
