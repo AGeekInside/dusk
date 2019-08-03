@@ -13,12 +13,12 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = "expand"
-DESCRIPTION = "Utility to expand nox functionality."
-URL = "https://github.com/AComfyGeek/helios"
+DESCRIPTION = "Utility to expand requirements.txt files."
+URL = "https://github.com/AComfyGeek/expand"
 EMAIL = "marcwbrooks@gmail.com"
 AUTHOR = "Marc Brooks"
 REQUIRES_PYTHON = ">=3.6.0"
-VERSION = "0.2.0"
+VERSION = "0.2.1"
 
 # What packages are required for this module to be executed?
 REQUIRED = [

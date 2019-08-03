@@ -17,5 +17,10 @@
 		"python.pythonPath": "/usr/local/bin/python",
 		"python.linting.pylintEnabled": true,
 		"python.linting.enabled": true
-	}
+	},
+	// Mount your .ssh folder to /root/.ssh-localhost so we can copy its contents
+	"runArgs": [ "-v", "${env:HOME}${env:USERPROFILE}/.ssh:/root/.ssh-localhost:ro" ],
+
+	// Copy the contents to the correct location and set permissions
+	"postCreateCommand": "mkdir -p ~/.ssh && cp -r ~/.ssh-localhost/* ~/.ssh && chmod 700 ~/.ssh && chmod 600 ~/.ssh/*"
 }
